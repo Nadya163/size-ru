@@ -1,176 +1,210 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Транслит ФИО онлайн — загранпаспорт, права | ФИО Транслит</title>
-    <meta
-      name="description"
-      content="Бесплатный транслит ФИО по правилам МВД РФ для загранпаспорта и водительского удостоверения. Плюс склонение ФИО по падежам для писем и документов."
-    />
-    <link rel="canonical" href="https://fio-translit.ru/" />
-    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500;600&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./assets/style.css" />
-  </head>
-  <body>
-<script type="text/javascript">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Конвертер размеров одежды и обуви — США, Европа, Россия | Size-RU</title>
+<meta name="description" content="Переведите размер одежды и обуви из американского или европейского в российский. Таблицы размеров для женщин и мужчин — Shein, Amazon, Wildberries, Zara.">
+<link rel="canonical" href="https://size-ru.ru/">
+<link rel="icon" href="./favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./assets/style.css">
+<style>
+.article-section { margin: 2rem 0; }
+.article-section h2 { font-size: 1.15rem; margin-bottom: .6rem; }
+.article-section p { margin-bottom: .9rem; line-height: 1.65; opacity: .88; }
+.req-table { width: 100%; border-collapse: collapse; font-size: .9rem; margin: .8rem 0 1.2rem; }
+.req-table th { background: rgba(255,255,255,.06); padding: .5rem .7rem; text-align: left; font-weight: 600; border-bottom: 2px solid rgba(255,255,255,.12); }
+.req-table td { padding: .4rem .7rem; border-bottom: 1px solid rgba(255,255,255,.06); }
+.req-table tr:hover td { background: rgba(255,255,255,.03); }
+.rules-note { font-size: .85rem; opacity: .7; margin-top: .4rem; }
+.faq { margin: 2rem 0; }
+.faq h2 { font-size: 1.15rem; margin-bottom: 1rem; }
+.faq-item { margin-bottom: 1.4rem; }
+.faq-item h3 { font-size: .97rem; font-weight: 600; margin-bottom: .35rem; }
+.faq-item p { margin: 0; line-height: 1.6; opacity: .88; font-size: .93rem; }
+</style>
+</head>
+<body>
+  <script type="text/javascript">
     (function(m,e,t,r,i,k,a){
         m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
         m[i].l=1*new Date();
         for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
         k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
-    })(window, document,'script','https://mc.yandex.ru/metrika/tag.js?id=111217125', 'ym');
-
-    ym(111217125, 'init', {ssr:true, webvisor:true, clickmap:true, ecommerce:"dataLayer", referrer: document.referrer, url: location.href, accurateTrackBounce:true, trackLinks:true});
+    })(window, document,'script','https://mc.yandex.ru/metrika/tag.js?id=111348651', 'ym');
+    ym(111348651, 'init', {ssr:true, webvisor:true, clickmap:true, ecommerce:"dataLayer", referrer: document.referrer, url: location.href, accurateTrackBounce:true, trackLinks:true});
 </script>
-<noscript><div><img src="https://mc.yandex.ru/watch/111217125" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-    <noscript
-      ><div>
-        <img
-          src="https://mc.yandex.ru/watch/111067064"
-          style="position: absolute; left: -9999px"
-          alt=""
-        /></div
-    ></noscript>
+<noscript><div><img src="https://mc.yandex.ru/watch/111348651" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<div class="page">
+  <span class="eyebrow">Конвертер размеров</span>
+  <h1>Перевод размеров одежды и обуви</h1>
+  <p class="sub">Выберите категорию и ваш размер — получите соответствие в российской, европейской, американской и британской системах.</p>
 
-    <div class="page">
-      <span class="eyebrow">Транслит и склонение ФИО</span>
-      <h1 id="pageH1">ФИО латиницей и по падежам</h1>
-      <p class="sub">
-        Транслит по правилам МВД для загранпаспорта и прав. Склонение ФИО по
-        всем падежам для писем, доверенностей и договоров.
-      </p>
+  <div class="cat-tabs">
+    <button class="cat-btn active" data-cat="women-clothes">Женская одежда</button>
+    <button class="cat-btn" data-cat="men-clothes">Мужская одежда</button>
+    <button class="cat-btn" data-cat="women-shoes">Женская обувь</button>
+    <button class="cat-btn" data-cat="men-shoes">Мужская обувь</button>
+  </div>
 
-      <div class="tool-tabs">
-        <button class="tab-btn active" data-tool="translit">
-          Транслит ФИО
-        </button>
-        <button class="tab-btn" data-tool="decline">Склонение ФИО</button>
-      </div>
-
-      <div class="tool-panel active" id="panel-translit">
-        <div class="input-wrap">
-          <label class="input-label" for="translit-input"
-            >Введите ФИО на русском</label
-          >
-          <input
-            class="fio-input"
-            id="translit-input"
-            type="text"
-            placeholder="Иванов Иван Иванович"
-            autocomplete="off"
-            spellcheck="false"
-          />
-          <div class="doc-select-wrap">
-            <button class="doc-chip active" data-doc="zagran">
-              Загранпаспорт
-            </button>
-            <button class="doc-chip" data-doc="prava">
-              Водительское удостоверение
-            </button>
-          </div>
-        </div>
-        <p class="doc-note" id="translit-note"></p>
-
-        <div class="result-block" id="translit-result">
-          <div class="result-header">
-            <span class="result-label">Транслитерация</span>
-            <button class="copy-btn" onclick="copyTranslit(this)">
-              Копировать
-            </button>
-          </div>
-          <div class="result-value" id="translit-value"></div>
-        </div>
-        <p class="privacy-note">
-          🔒 Обработка идёт в браузере, данные никуда не отправляются
-        </p>
-      </div>
-
-      <div class="tool-panel" id="panel-decline">
-        <div class="input-wrap">
-          <label class="input-label" for="decline-input"
-            >Введите ФИО полностью</label
-          >
-          <input
-            class="fio-input"
-            id="decline-input"
-            type="text"
-            placeholder="Иванов Иван Иванович"
-            autocomplete="off"
-            spellcheck="false"
-          />
-          <div class="doc-select-wrap" style="margin-top: 14px">
-            <label class="input-label" style="margin-bottom: 6px">Пол</label>
-            <select
-              id="gender-select"
-              style="
-                font-family: inherit;
-                font-size: 14px;
-                padding: 8px 12px;
-                border-radius: 8px;
-                border: 1.5px solid var(--line);
-                background: var(--paper);
-                color: var(--ink);
-                cursor: pointer;
-              "
-            >
-              <option value="auto">Определить автоматически</option>
-              <option value="м">Мужской</option>
-              <option value="ж">Женский</option>
-            </select>
-          </div>
-        </div>
-
-        <div class="result-block" id="decline-result">
-          <div class="result-header">
-            <span class="result-label">Склонение по падежам</span>
-          </div>
-          <table class="cases-table">
-            <tbody id="cases-tbody"></tbody>
-          </table>
-        </div>
-        <p class="privacy-note">
-          🔒 Обработка идёт в браузере, данные никуда не отправляются
-        </p>
-      </div>
-
-      <section class="how">
-        <p class="how-title">Как пользоваться</p>
-        <ul class="how-list">
-          <li>
-            <span class="how-num">1</span>Выберите нужный инструмент — транслит
-            или склонение
-          </li>
-          <li>
-            <span class="how-num">2</span>Введите ФИО на русском языке полностью
-          </li>
-          <li>
-            <span class="how-num">3</span>Скопируйте результат одним кликом
-          </li>
-        </ul>
-      </section>
-
-      <p class="disclaimer">
-        Таблицы транслитерации основаны на приказах МВД РФ. Перед подачей
-        документов рекомендуем сверить написание с актуальными требованиями
-        вашего ведомства — правила могут уточняться.
-      </p>
-
-      <nav class="doc-links">
-        <span>Другие страницы:</span>
-        <a href="/translit-zagranpasport.html">Транслит для загранпаспорта</a>
-        <a href="/translit-prava.html">Транслит для прав</a>
-        <a href="/sklonenie-fio.html">Склонение ФИО</a>
-        <a href="/sklonenie-fio-pismo.html">Склонение для писем</a>
-      </nav>
+  <div class="cat-panel active" id="panel-women-clothes">
+    <div class="direction-wrap">
+      <button class="dir-btn active" data-dir="ru">Из RU</button>
+      <button class="dir-btn" data-dir="eu">Из EU</button>
+      <button class="dir-btn" data-dir="us">Из US</button>
+      <button class="dir-btn" data-dir="int">Из INT</button>
     </div>
+    <div class="input-wrap">
+      <label class="input-label" for="wc-select">Выберите российский размер (RU)</label>
+      <select class="size-select" id="wc-select"></select>
+    </div>
+    <div class="result-block" id="wc-result">
+      <div class="result-header"><span class="result-label">Соответствие размеров</span></div>
+      <div class="result-grid"></div>
+    </div>
+    <p class="size-note">Размеры могут незначительно отличаться в зависимости от бренда и производителя. Всегда сверяйтесь с таблицей размеров конкретного магазина.</p>
+  </div>
 
-    <script src="./assets/tool.js"></script>
-  </body>
+  <div class="cat-panel" id="panel-men-clothes">
+    <div class="direction-wrap">
+      <button class="dir-btn active" data-dir="ru">Из RU</button>
+      <button class="dir-btn" data-dir="eu">Из EU</button>
+      <button class="dir-btn" data-dir="us">Из US</button>
+      <button class="dir-btn" data-dir="int">Из INT</button>
+    </div>
+    <div class="input-wrap">
+      <label class="input-label" for="mc-select">Выберите российский размер (RU)</label>
+      <select class="size-select" id="mc-select"></select>
+    </div>
+    <div class="result-block" id="mc-result">
+      <div class="result-header"><span class="result-label">Соответствие размеров</span></div>
+      <div class="result-grid"></div>
+    </div>
+    <p class="size-note">Размеры могут отличаться в зависимости от бренда. Для точного подбора измерьте обхват груди и талии.</p>
+  </div>
+
+  <div class="cat-panel" id="panel-women-shoes">
+    <div class="direction-wrap">
+      <button class="dir-btn active" data-dir="eu">Из EU/RU</button>
+      <button class="dir-btn" data-dir="us">Из US</button>
+      <button class="dir-btn" data-dir="uk">Из UK</button>
+    </div>
+    <div class="input-wrap">
+      <label class="input-label" for="ws-select">Выберите европейский размер (EU/RU)</label>
+      <select class="size-select" id="ws-select"></select>
+    </div>
+    <div class="result-block" id="ws-result">
+      <div class="result-header"><span class="result-label">Соответствие размеров обуви</span></div>
+      <div class="result-grid"></div>
+    </div>
+    <p class="size-note">В России и Европе используется одинаковая система нумерации обуви. Для точного подбора измерьте длину стопы по стельке.</p>
+  </div>
+
+  <div class="cat-panel" id="panel-men-shoes">
+    <div class="direction-wrap">
+      <button class="dir-btn active" data-dir="eu">Из EU/RU</button>
+      <button class="dir-btn" data-dir="us">Из US</button>
+      <button class="dir-btn" data-dir="uk">Из UK</button>
+    </div>
+    <div class="input-wrap">
+      <label class="input-label" for="ms-select">Выберите европейский размер (EU/RU)</label>
+      <select class="size-select" id="ms-select"></select>
+    </div>
+    <div class="result-block" id="ms-result">
+      <div class="result-header"><span class="result-label">Соответствие размеров обуви</span></div>
+      <div class="result-grid"></div>
+    </div>
+    <p class="size-note">Для точного подбора обуви измерьте длину стопы и сравните с колонкой "Длина стопы" в результате.</p>
+  </div>
+
+  <section class="how">
+  <p class="how-title">Как пользоваться конвертером размеров</p>
+  <ul class="how-list">
+    <li>
+      <span class="how-num">1</span>Выберите категорию вверху: женская или мужская одежда,
+      женская или мужская обувь. Размерные системы для одежды и обуви
+      рассчитываются по-разному и не совпадают между собой.
+    </li>
+    <li>
+      <span class="how-num">2</span>Укажите систему, в которой указан ваш размер: <strong>RU</strong> —
+      российская (42, 44, 46…), <strong>EU</strong> — европейская (34, 36, 38…),
+      <strong>US</strong> — американская (0, 2, 4… или XS/S/M/L),
+      <strong>INT</strong> — международная буквенная (XS, S, M, L, XL, XXL).
+    </li>
+    <li>
+      <span class="how-num">3</span>Выберите ваш размер в выпадающем списке — таблица мгновенно
+      покажет соответствие во всех системах. Для одежды дополнительно
+      указываются мерки в сантиметрах — это точнее, чем номер размера.
+    </li>
+  </ul>
+</section>
+
+  <p class="disclaimer">Таблицы размеров составлены по общепринятым стандартам. Размеры могут отличаться в зависимости от бренда и производителя — всегда сверяйтесь с таблицей конкретного магазина.</p>
+
+  <section class="article-section">
+  <h2>Как устроены системы размеров одежды</h2>
+  <p>Российская система основана на половине обхвата груди. Размер 44 означает,
+  что обхват груди — 88 см. Европейская система отличается на 6 единиц: EU 38 = RU 44.
+  Американская считается по-другому: US 6 примерно соответствует EU 36 и RU 42
+  для женской одежды.</p>
+  <p>Мужские системы проще: российский и европейский размеры совпадают для верхней одежды
+  (RU 50 = EU 50), но американский снова отличается — US 40 (chest) = EU 50.</p>
+  <p>Международная буквенная система (XS/S/M/L) не стандартизирована — у каждого
+  бренда свои диапазоны. Поэтому всегда проверяйте мерки в сантиметрах,
+  а не ориентируйтесь только на букву.</p>
+
+  <h2>Как правильно снять мерки</h2>
+  <p>Для одежды нужны три мерки: <strong>обхват груди</strong> — горизонтально по
+  наиболее выступающим точкам; <strong>обхват талии</strong> — в самом узком месте;
+  <strong>обхват бёдер</strong> — горизонтально по наиболее выступающим точкам ягодиц.
+  Ленту держите горизонтально, не затягивайте. Для обуви измерьте длину стопы
+  по стельке от пятки до кончика большого пальца.</p>
+</section>
+
+<section class="faq">
+  <h2>Частые вопросы про перевод размеров</h2>
+
+  <div class="faq-item">
+    <h3>Почему у разных брендов одинаковый номер, но разная посадка?</h3>
+    <p>Потому что размер — это номинал, а не точная мерка. Производители используют
+    разные лекала (слимфит, оверсайз, прямой крой) и разные точки отсчёта.
+    Zara исторически имеет более узкий крой, чем H&M того же размера. Всегда
+    смотрите на мерки в сантиметрах, а не только на номер.</p>
+  </div>
+
+  <div class="faq-item">
+    <h3>Что означает размер XXS и есть ли он в России?</h3>
+    <p>XXS — это международный размер, соответствующий RU 38–40, EU 32–34, US 00–0.
+    В российских магазинах он редко встречается как отдельная категория, но
+    в зарубежных интернет-магазинах и на маркетплейсах — обычное явление.</p>
+  </div>
+
+  <div class="faq-item">
+    <h3>Можно ли доверять таблице размеров на маркетплейсе?</h3>
+    <p>На Wildberries и Ozon продавцы указывают таблицы самостоятельно, поэтому
+    качество данных варьируется. Надёжнее смотреть на мерки конкретного товара
+    в описании («замеры изделия») — это точнее, чем размерная линейка продавца.</p>
+  </div>
+
+  <div class="faq-item">
+    <h3>Одинаковы ли EU и RU размеры обуви?</h3>
+    <p>Да. Россия использует ту же метрическую систему, что и Европа. EU 40 = RU 40
+    для обуви. Разница возникает только для одежды: EU 40 (женская) = RU 46.</p>
+  </div>
+</section>
+
+<nav class="doc-links">
+    <span>Другие страницы:</span>
+    <a href="./razmery-odezhdy-ssha-rossiya.html">Одежда США → Россия</a>
+    <a href="./razmery-odezhdy-evropa-rossiya.html">Одежда Европа → Россия</a>
+    <a href="./razmery-obuvi-ssha-rossiya.html">Обувь США → Россия</a>
+    <a href="./razmer-shein-wildberries.html">Shein и маркетплейсы</a>
+  </nav>
+</div>
+
+<script src="./assets/tool.js"></script>
+</body>
 </html>
